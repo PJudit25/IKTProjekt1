@@ -11,5 +11,5 @@ a, a:link, a:hover, a:active, a:visited{
     border: none;
     width: 980pt;
     background-color: #509050;
-    margin: 0 autogitkpwd;
+    table-layout: 0 auto;
 }
