@@ -33,3 +33,10 @@ a, a:link, a:hover, a:active, a:visited{
 .felkover{
     font-weight: bold;
 }
+
+#gyom{
+    margin-right: 5px;
+    margin-left: 5px;
+    border: 1px;
+    float: right;
+}
