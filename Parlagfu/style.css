@@ -9,7 +9,23 @@ a, a:link, a:hover, a:active, a:visited{
 
 #alap{
     border: none;
-    width: 980pt;
+    width: 980px;
     background-color: #509050;
-    table-layout: 0 auto;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+#belsoTabla{
+    width: 940px;
+    border: none;
+    background-color: white;
+    padding: 1px;
+    margin: 0 auto;
+}
+
+#masodikSor{
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
