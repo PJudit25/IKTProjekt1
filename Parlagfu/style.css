@@ -1,0 +1,15 @@
+body{
+    background-color: #9cff59;
+    color: black;
+}
+
+a, a:link, a:hover, a:active, a:visited{
+    color: #999999;
+}
+
+#alap{
+    border: none;
+    width: 980pt;
+    background-color: #509050;
+    margin: 0 autogitkpwd;
+}
