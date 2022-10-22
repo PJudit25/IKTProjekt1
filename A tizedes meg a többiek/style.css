@@ -1,0 +1,8 @@
+body{
+    color: white;
+    background-image: url(hatter.png);
+}
+
+a, a:hover, a:visited, a:active, a:link{
+    color: #c0c0c0;
+}
