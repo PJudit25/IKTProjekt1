@@ -1,8 +1,14 @@
 body{
     color: white;
     background-image: url(hatter.png);
+    text-align: center;
 }
 
 a, a:hover, a:visited, a:active, a:link{
     color: #c0c0c0;
+}
+
+table{
+    width: 1000px;
+    border: none;
 }
