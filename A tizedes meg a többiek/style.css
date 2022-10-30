@@ -2,13 +2,37 @@ body{
     color: white;
     background-image: url(hatter.png);
     text-align: center;
+    margin: 0 auto;
 }
 
 a, a:hover, a:visited, a:active, a:link{
     color: #c0c0c0;
 }
 
-table{
+#foTabla{
     width: 1000px;
     border: none;
+}
+
+.forras{
+    text-align: right;
+    font-style: italic;
+}
+
+#idezet{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.nev{
+    font-weight: bold;
+}
+
+.szoveg{
+    text-align: left;
+    text-align: justify;
+}
+
+.balra{
+    text-align: left;
 }
