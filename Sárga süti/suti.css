@@ -25,3 +25,7 @@ input{
 body{
     font-family: cursive;
 }
+
+p{
+    text-align: justify;
+}
