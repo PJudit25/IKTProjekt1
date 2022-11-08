@@ -32,9 +32,12 @@ p{
   padding: 7px;
   font-weight: normal;
   font-style: italic;
+  background-color: white;
   
 }
 
 li{
   font-weight:bold;
+  list-style: square;
 }
+
