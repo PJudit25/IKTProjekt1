@@ -59,4 +59,12 @@ def ciklus3():
     for i in reversed(range(1,11)):
         if(i%2!=0):
             print(i)
-ciklus3()
+#ciklus3()
+
+def ciklus4():
+    number=int(input("Hányszor ismétlődjön meg? "))
+    text=input("Adja meg a szöveget! ")
+
+    for i in range(number):
+        print(text)
+ciklus4()
