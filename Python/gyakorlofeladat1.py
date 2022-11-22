@@ -54,3 +54,9 @@ def ciklus2():
         print(i)
 
 #ciklus2()
+
+def ciklus3():
+    for i in reversed(range(1,11)):
+        if(i%2!=0):
+            print(i)
+ciklus3()
