@@ -11,3 +11,11 @@ def feladat1():
 #feladat1()
 
 def feladat2():
+    number=int(input("Kérem a számot: "))
+
+    if number%2==0:
+        print("A szám páros.")
+    else:
+        print("A szám páratlan.")
+
+feladat2()
