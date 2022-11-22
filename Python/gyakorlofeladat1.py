@@ -67,4 +67,10 @@ def ciklus4():
 
     for i in range(number):
         print(text)
-ciklus4()
+#ciklus4()
+
+def ciklus5():
+    number=1
+    while number%2!=0:
+        number=int(input("Adjon meg egy páros számot! "))
+ciklus5()
