@@ -73,4 +73,14 @@ def ciklus5():
     number=1
     while number%2!=0:
         number=int(input("Adjon meg egy páros számot! "))
-ciklus5()
+#ciklus5()
+
+def ciklus6():
+    db=int(0)
+    for i in range(20):
+        rnd=random.randrange(1,13)
+        if(rnd%3==0):
+            print(rnd)
+            db=db+1
+    print(f"Hárommal osztható számok száma: {db}")        
+ciklus6()
