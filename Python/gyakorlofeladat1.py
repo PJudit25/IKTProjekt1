@@ -1,3 +1,5 @@
+import random
+
 def feladat1():
     text=input("Jó napod van? ")
 
@@ -17,5 +19,25 @@ def feladat2():
         print("A szám páros.")
     else:
         print("A szám páratlan.")
+        
 
-feladat2()
+#feladat2()
+
+def feladat3():
+    try:
+        rnd=random.randrange(1,6)
+
+        number=0
+        while number<1 or number>5:
+            number=int(input("Adj meg egy számot 1 és 5 között: "))
+
+        if (number<rnd):
+            print (f"A gép nagyobb számra gondolt: {rnd}")
+        elif (number>rnd):
+            print (f"A gép kisebb számra gondolt: {rnd}")
+        else:
+            print (f"Eltaláltad a gép által gondolt számot! {rnd}")
+    except:
+        print("Nem jó formátum.")
+
+feladat3()
