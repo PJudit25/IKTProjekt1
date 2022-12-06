@@ -91,4 +91,16 @@ def feladat7():
 #feladat7()
 
 def feladat8():
-    
+    tomb=[]
+    szam=int(input("Adjon meg egy pozitív egész számot: "))
+    eredetiszam=szam
+    for i in range(3):
+        if szam%3==0:
+            while szam>0:
+                tomb.append(szam)
+                szam-=3
+        else:
+            szam-=1
+    print(tomb)
+
+feladat8()
