@@ -103,4 +103,29 @@ def feladat8():
             szam-=1
     print(tomb)
 
-feladat8()
+#feladat8()
+
+def feladat9():
+    bekertSzam1=int(input("Adjon meg egy pozitív egész számot: "))
+    bekertSzam2=int(input("Adjon meg egy pozitív egész számot: "))
+    tomb=[]
+    tomb.append(bekertSzam1)
+    tomb.append(bekertSzam2)
+    tomb.sort()
+    print(tomb)
+    szam1=tomb[0]
+    szam2=tomb[1]-1
+    tomb2=[]
+    for i in range(2):
+        if szam2%2==0:
+            while szam2>szam1:
+                tomb2.append(szam2)
+                szam2-=2
+        else:
+            szam2-=1
+    tomb2.sort()
+    print(tomb2)
+    
+feladat9()
+
+    
