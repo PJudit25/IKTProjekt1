@@ -125,7 +125,16 @@ def feladat9():
             szam2-=1
     tomb2.sort()
     print(tomb2)
-    
-feladat9()
+
+#feladat9()
+
+def feladat10():
+    szam=int(input("Adjon meg egy 20-nál nem nagyobb, pozitív egész számot: "))
+    while szam>20:
+        print("A megadott szám nagyobb, mint 20.")
+        szam=int(input("Adjon meg egy 20-nál nem nagyobb, pozitív egész számot: "))
+    print(szam*" "+"START")
+
+feladat10()
 
     
