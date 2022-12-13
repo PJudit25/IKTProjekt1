@@ -51,12 +51,27 @@ def feladat3():
     else:
         print((szam//2)*szamjegyek+"0")
 
-feladat3()
+#feladat3()
 
 
 """4. Írj egy Python programot, amely először bekér egy kisebb majd egy nagyobb pozitív valós
 számot a felhasználótól és kiírja a képernyőre azokat az egész számokat, amelyek a megadott
 értékek között helyezkednek el! """
+
+def feladat4():
+    szam1=float(input("Adjon meg két valós számot! Kérem a kisebb számot: "))
+    szam2=float(input("Kérem a nagyobb számot: "))
+    szam1=int(szam1)
+    szam2=int(szam2)
+    tomb=[]
+    kulonbseg=szam2-szam1
+    for i in range(kulonbseg-1):
+        tomb.append(int(szam1)+1)
+        szam1+=1
+    print(tomb)
+
+feladat4()
+
 
 """5. Írj egy Python eljárást, amely paraméterként kap 2 egész számot (N és M) és kiír a képernyőre
 a csillag (*) karaktereket M darab sorban és N darab oszlopban (tehát NxM darab karaktert egy
