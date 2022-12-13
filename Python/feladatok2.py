@@ -70,9 +70,18 @@ def feladat4():
         szam1+=1
     print(tomb)
 
-feladat4()
+#feladat4()
 
 
 """5. Írj egy Python eljárást, amely paraméterként kap 2 egész számot (N és M) és kiír a képernyőre
 a csillag (*) karaktereket M darab sorban és N darab oszlopban (tehát NxM darab karaktert egy
 téglalap alakú képernyőrészre)! A programodban hívd is meg ezt az alprogramot!"""
+
+def feladat5():
+    N=int(input("Adjon meg egy pozitív egész számot: "))
+    M=int(input("Adjon meg mégegy pozitív egész számot: "))
+    for i in range(M):
+        print(N*"*")
+
+feladat5()
+
