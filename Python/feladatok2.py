@@ -36,12 +36,23 @@ def feladat2():
     for i in range(len(szo)):
         print(szo[i])
 
-feladat2()
+#feladat2()
 
 
 """3. Írj egy Python programot, amely bekér egy pozitív egész számot a felhasználótól és kiírja a
 képernyőre felváltva a 0 és 1 számjegyeket úgy, hogy a számjegyek együttes darabszáma
 pontosan a megadott szám legyen! """
+
+def feladat3():
+    szam=int(input("Adjon meg egy pozitív egész számot: "))
+    szamjegyek="0 1 "
+    if szam%2==0:
+        print((szam//2)*szamjegyek)
+    else:
+        print((szam//2)*szamjegyek+"0")
+
+feladat3()
+
 
 """4. Írj egy Python programot, amely először bekér egy kisebb majd egy nagyobb pozitív valós
 számot a felhasználótól és kiírja a képernyőre azokat az egész számokat, amelyek a megadott
