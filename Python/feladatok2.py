@@ -11,6 +11,7 @@ def feladat0():
 
 #feladat0()
 
+
 """1. Írj egy Python programot, amely bekér egy pozitív egész számot a felhasználótól és kiírja a
 képernyőre azt a számot, amely az ennél a számnál nem nagyobb pozitív egész számok
 összege! """
@@ -24,11 +25,19 @@ def feladat1():
     print(tomb)
     print(sum(tomb))
 
-feladat1()       
+#feladat1()       
 
 
 """2. Írj egy Python programot, amely bekér egy szót (sztringet) a felhasználótól és kiírja a
 képernyőre a szó betűit, úgy, hogy minden betű egy új sorba kerüljön!""" 
+
+def feladat2():
+    szo=input("Kérek egy szót: ")
+    for i in range(len(szo)):
+        print(szo[i])
+
+feladat2()
+
 
 """3. Írj egy Python programot, amely bekér egy pozitív egész számot a felhasználótól és kiírja a
 képernyőre felváltva a 0 és 1 számjegyeket úgy, hogy a számjegyek együttes darabszáma
